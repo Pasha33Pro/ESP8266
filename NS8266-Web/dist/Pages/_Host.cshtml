@@ -1,0 +1,11 @@
+@page "/"
+@namespace NS8266Web.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+}
+
+<component
+    type="typeof(NS8266Web.Shared.App)"
+    render-mode="ServerPrerendered"
+/>

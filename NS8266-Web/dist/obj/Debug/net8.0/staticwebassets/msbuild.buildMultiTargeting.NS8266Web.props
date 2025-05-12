@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NS8266Web.props" />
+</Project>

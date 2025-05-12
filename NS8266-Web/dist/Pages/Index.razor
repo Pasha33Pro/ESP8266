@@ -1,0 +1,84 @@
+@page "/"
+@inject IHttpClientFactory HttpClientFactory
+
+<h1 class="page-title">Wi-Fi Traffic Monitor</h1>
+
+@if (isLoading)
+{
+    <div class="loading-container">
+        <div class="spinner"></div>
+        <p>Connecting to NS8266...</p>
+    </div>
+}
+else
+{
+    <div class="dashboard">
+        <div class="traffic-cards">
+            <div class="card high-traffic">
+                <h3>High Traffic</h3>
+                <div class="value">@currentData.High</div>
+            </div>
+
+            <div class="card medium-traffic">
+                <h3>Medium Traffic</h3>
+                <div class="value">@currentData.Medium</div>
+            </div>
+
+            <div class="card low-traffic">
+                <h3>Low Traffic</h3>
+                <div class="value">@currentData.Low</div>
+            </div>
+        </div>
+
+        @* Временно удалим LineChart *@
+        @* <div class="chart-container">
+            <LineChart DataPoints="@chartData" />
+        </div> *@
+    </div>
+}
+
+@code {
+    private TrafficData currentData = new();
+    private bool isLoading = true;
+    private System.Timers.Timer? updateTimer; // Добавим nullable
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+        updateTimer = new System.Timers.Timer(2000);
+        updateTimer.Elapsed += async (sender, e) => await LoadData();
+        updateTimer.Start();
+    }
+
+    private async Task LoadData()
+    {
+        try
+        {
+            var client = HttpClientFactory.CreateClient("NS8266Web");
+            var response = await client.GetFromJsonAsync<TrafficData>("api/data");
+
+            if (response != null)
+            {
+                currentData = response;
+                isLoading = false;
+                await InvokeAsync(StateHasChanged);
+            }
+        }
+        catch
+        {
+            // Обработка ошибок
+        }
+    }
+
+    public class TrafficData
+    {
+        public uint High { get; set; }
+        public uint Medium { get; set; }
+        public uint Low { get; set; }
+    }
+
+    public void Dispose()
+    {
+        updateTimer?.Dispose();
+    }
+}
