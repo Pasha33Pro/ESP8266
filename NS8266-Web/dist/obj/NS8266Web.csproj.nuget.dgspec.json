@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\NS8266Web.csproj": {}
+    "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\NS8266Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\NS8266Web.csproj": {
+    "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\NS8266Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\NS8266Web.csproj",
+        "projectUniqueName": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\NS8266Web.csproj",
         "projectName": "NS8266Web",
-        "projectPath": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\NS8266Web.csproj",
+        "projectPath": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\NS8266Web.csproj",
         "packagesPath": "C:\\Users\\PASHA33PRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\obj\\",
+        "outputPath": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

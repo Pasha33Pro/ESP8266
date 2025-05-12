@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jW31fW2No4UdOW4HafjBRSdCePqUetonislQm4y9HQE=",
+  "Hash": "YJENPN+vN6OD7u6FbFAT/+3oOCQkFDoeWpAU7qOVNCs=",
   "Source": "NS8266Web",
   "BasePath": "_content/NS8266Web",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "NS8266Web\\wwwroot",
       "Source": "NS8266Web",
-      "ContentRoot": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\wwwroot\\",
       "BasePath": "_content/NS8266Web",
       "Pattern": "**"
     }
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "C:\\Users\\PASHA33PRO\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json"
     },
     {
-      "Identity": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\wwwroot\\css\\site.css",
       "SourceId": "NS8266Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\wwwroot\\",
       "BasePath": "_content/NS8266Web",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\wwwroot\\favicon.ico",
       "SourceId": "NS8266Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\wwwroot\\",
       "BasePath": "_content/NS8266Web",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -700,7 +700,7 @@
     },
     {
       "Route": "css/site.4lquencank.css",
-      "AssetFile": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -745,7 +745,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -782,7 +782,7 @@
     },
     {
       "Route": "favicon.5ipweew5fc.ico",
-      "AssetFile": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -827,7 +827,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\ESP8266-Web\\dist\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\PASHA33PRO\\Documents\\GitHub\\ESP8266\\NS8266-Web\\dist\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {

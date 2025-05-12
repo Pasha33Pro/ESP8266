@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NS8266Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66a49af92a4b87b07f0883cfb58844d196b1c31f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d0f42a9524fc24e2f7c98e35d7c32cf1c0d5bf4")]
 [assembly: System.Reflection.AssemblyProductAttribute("NS8266Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NS8266Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
